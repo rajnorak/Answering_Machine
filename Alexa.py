@@ -15,7 +15,7 @@ def talk(text):
     engine.runAndWait()
     return text
 
-def listening_Arman():
+def listening_Anuja():
     try:
         talk('Hey I am Anuja, What can I do for you')
         with event.Microphone() as source:
@@ -29,8 +29,8 @@ def listening_Arman():
         pass
     return command
 
-def call_Arman():
-    command = listening_Arman()
+def call_Anuja():
+    command = listening_Anuja()
     if 'play' in command:
         song = command.replace('play', '')
         print('playing ' + song)
@@ -85,10 +85,8 @@ def call_Arman():
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
         print(cmd)
-       
-     elif 'what is your salary?' in command:
-        cmd=talk('MY salary is 55 lakh per year')
+    elif 'what is the capital of India?' in command:
+        cmd=talk('New Delhi')
         print(cmd)
-  
 
 call_Anuja()
