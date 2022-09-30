@@ -91,4 +91,19 @@ def call_Arman():
         print(cmd)
   
 
+
+
+
+
+
+
+
+
+
+
+
+ elif 'Are you Married?' in command:
+        cmd = talk('yes,I am Married.')
+        print(cmd)
+
 call_Anuja()
