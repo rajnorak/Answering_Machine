@@ -104,6 +104,9 @@ def call_Anuja():
     elif 'Can you sing a song?' in command:
         cmd = talk('Yes Sure which would you like to hear?')
         print(cmd)
+    elif 'Who is your favourite cricketer?' in command:
+        cmd = talk('Virat Kohli.')
+        print(cmd)
     elif 'What is your fav food?' in command:
         cmd=talk('My Fav Dish is PavBhaji')
         print(cmd)    
