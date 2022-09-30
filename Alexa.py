@@ -133,6 +133,9 @@ def call_Anuja():
          elif 'Do you ever get bored?' in command:
         cmd = talk('never')
         print(cmd)
+     elif 'How to learn about GitHub>' in command:
+        cmd = talk('Watch YouTube Videos')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
