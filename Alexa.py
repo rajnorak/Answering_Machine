@@ -105,6 +105,10 @@ def call_Anuja():
        print(default)
     elif 'What is your fav food?' in command:
         cmd=talk('My Fav Dish is PavBhaji')
-        print(cmd)    
+        print(cmd)
+        
+    elif 'Which is your fav city?' in command:
+        cmd = talk('New York.')
+        print(cmd)
 
 call_Anuja()
