@@ -99,7 +99,7 @@ def call_Anuja():
     elif 'What is your favourite Colour?' in command:
         cmd = talk('My favourite colour is Black')
         print(cmd)
-     elif 'Can you sing a song?' in command:
+     elif 'Can you sing a song for me ?' in command:
         cmd = talk('Yes Sure which would you like to hear?')
         print(cmd)
      
