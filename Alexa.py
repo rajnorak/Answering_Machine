@@ -130,6 +130,9 @@ def call_Anuja():
      elif 'How many pull requests you made?' in command:
         cmd = talk('Four')
         print(cmd)
+         elif 'Do you ever get bored?' in command:
+        cmd = talk('never')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
