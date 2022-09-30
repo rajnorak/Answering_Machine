@@ -94,17 +94,16 @@ def call_Anuja():
         print(cmd)
     elif 'Are you Married?' in command:
         cmd = talk('yes,I am Married.')
-        print(cmd)
-        
-        elif 'What is your favourite Colour?' in command:
+        print(cmd)    
+    elif 'What is your favourite Colour?' in command:
         cmd = talk('My favourite colour is Black')
         print(cmd)
-     
+    elif 'What is your fav food?' in command:
+        cmd=talk('My Fav Dish is PavBhaji')
+        print(cmd)   
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
-    elif 'What is your fav food?' in command:
-        cmd=talk('My Fav Dish is PavBhaji')
-        print(cmd)    
+    
 
 call_Anuja()
