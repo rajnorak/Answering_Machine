@@ -66,9 +66,6 @@ def call_Anuja():
     elif 'How was your day?' in command:
         cmd=talk('My day was great! I tried to achieve my target')
         print(cmd) 
-    else:
-       default = talk('I am sorry, I did not understand')
-       print(default)
     elif 'What is your age?' in command:
         cmd=talk('I am only six-years-old')
         print(cmd)
@@ -78,30 +75,21 @@ def call_Anuja():
     elif 'What is your spell?' in command:
         cmd=talk('Expecto Patronum')
         print(cmd)
-    else:
-        default = talk('The boy who lived!!!!')
-        print(default)
-       
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
+        print(cmd)
+    elif'what is your favourite qoutes?' in command:
+        cmd = talk ('My favourite quotes is Health is Wealth')
         print(cmd)
     elif 'what is the capital of India?' in command:
         cmd=talk('New Delhi')
         print(cmd)
-
-
-
-
-
-
-
-
-
-
-
-
- elif 'Are you Married?' in command:
+    elif 'Are you Married?' in command:
         cmd = talk('yes,I am Married.')
         print(cmd)
+    else:
+       default = talk('I am sorry, I did not understand')
+       print(default)
+
 
 call_Anuja()
