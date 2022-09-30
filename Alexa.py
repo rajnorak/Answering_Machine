@@ -15,7 +15,7 @@ def talk(text):
     engine.runAndWait()
     return text
 
-def listening_Anuja():
+def listening_Arman():
     try:
         talk('Hey I am Anuja, What can I do for you')
         with event.Microphone() as source:
@@ -29,8 +29,8 @@ def listening_Anuja():
         pass
     return command
 
-def call_Anuja():
-    command = listening_Anuja()
+def call_Arman():
+    command = listening_Arman()
     if 'play' in command:
         song = command.replace('play', '')
         print('playing ' + song)
