@@ -85,6 +85,10 @@ def call_Anuja():
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
         print(cmd)
+       
+     elif 'what is your salary?' in command:
+        cmd=talk('MY salary is 55 lakh per year')
+        print(cmd)
   
 
 call_Anuja()
