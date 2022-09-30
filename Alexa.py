@@ -134,5 +134,8 @@ def call_Anuja():
        default = talk('I am sorry, I did not understand')
        print(default)
         
+        elif 'What is your name?' in command:
+        cmd=talk('my name is  Google')
+        print(cmd)
 
 call_Anuja()
