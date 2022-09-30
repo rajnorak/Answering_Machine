@@ -130,7 +130,10 @@ def call_Anuja():
      elif 'How many pull requests you made?' in command:
         cmd = talk('Four')
         print(cmd)
-         elif 'Do you ever get bored?' in command:
+     elif 'How was your day?' in command:
+        cmd = talk('Good')
+        print(cmd)
+     elif 'Do you ever get bored?' in command:
         cmd = talk('never')
         print(cmd)
     else:
@@ -139,10 +142,6 @@ def call_Anuja():
         
         elif 'What is your name?' in command:
         cmd=talk('my name is  Google')
-        print(cmd)
-        
-        elif 'Your college Name?' in command:
-        cmd=talk('my college name is RCOEM')
         print(cmd)
 
 call_Anuja()
