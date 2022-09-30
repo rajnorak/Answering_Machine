@@ -89,4 +89,19 @@ def call_Anuja():
         cmd=talk('New Delhi')
         print(cmd)
 
+
+
+
+
+
+
+
+
+
+
+
+ elif 'Are you Married?' in command:
+        cmd = talk('yes,I am Married.')
+        print(cmd)
+
 call_Anuja()
