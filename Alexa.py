@@ -124,9 +124,12 @@ def call_Anuja():
     elif 'Who is the father of computer?' in command:
         cmd = talk('Charles Babbage')
         print(cmd)
+     elif 'How many pull requests you made?' in command:
+        cmd = talk('Four')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
-
+        
 
 call_Anuja()
