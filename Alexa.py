@@ -103,5 +103,29 @@ def call_Anuja():
  elif 'Are you Married?' in command:
         cmd = talk('yes,I am Married.')
         print(cmd)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          elif 'Will it rain today?' in command:
+        cmd=talk('No,possibilities are very less')
+        print(cmd)
 
 call_Anuja()
