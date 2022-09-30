@@ -94,25 +94,39 @@ def call_Anuja():
         print(cmd)
     elif 'Are you Married?' in command:
         cmd = talk('yes,I am Married.')
+        print(cmd) 
+    elif 'Will it rain today?' in command:
+        cmd=talk('No,possibilities are very less')
         print(cmd)
-        
-        elif 'What is your favourite Colour?' in command:
+    elif 'What is your favourite Colour?' in command:
+        cmd = talk('My favourite colour is Black')
+        print(cmd)   
+    elif 'Who is the father of computer?' in command:
+        cmd = talk('Charles Babbage')
+    elif 'What is your favourite Colour?' in command:
         cmd = talk('My favourite colour is Black')
         print(cmd)
-        
-        elif 'Who is the father of computer?' in command:
-        cmd = talk('Charles Babbage')
+    elif 'Can you sing a song?' in command:
+        cmd = talk('Yes Sure which would you like to hear?')
         print(cmd)
-     
-    else:
-       default = talk('I am sorry, I did not understand')
-       print(default)
+    elif 'Who is your favourite cricketer?' in command:
+        cmd = talk('Virat Kohli.')
+        print(cmd)
+    elif 'What is your fav food?' in command:
+        cmd=talk('My Fav Dish is PavBhaji')
+        print(cmd)
+    elif 'Which is your fav city?' in command:
+        cmd = talk('New York.')
+        print(cmd)  
     elif 'What is your fav food?' in command:
         cmd=talk('My Fav Dish is PavBhaji')
         print(cmd)   
-        
-        elif 'Who is the father of computer?' in command:
+    elif 'Who is the father of computer?' in command:
         cmd = talk('Charles Babbage')
         print(cmd)
+    else:
+       default = talk('I am sorry, I did not understand')
+       print(default)
+
 
 call_Anuja()
