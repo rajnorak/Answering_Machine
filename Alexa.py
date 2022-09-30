@@ -112,7 +112,10 @@ def call_Anuja():
         print(cmd)
     elif 'Which is your fav city?' in command:
         cmd = talk('New York.')
-        print(cmd)  
+        print(cmd)
+    elif 'What is your age?' in command:
+        cmd = talk('20')
+        print(cmd) 
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
