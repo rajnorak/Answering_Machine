@@ -95,6 +95,9 @@ def call_Anuja():
     elif 'Are you Married?' in command:
         cmd = talk('yes,I am Married.')
         print(cmd)
+    elif 'Who is your favourite cricketer?' in command:
+        cmd = talk('Virat Kohli.')
+        print(cmd)
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
