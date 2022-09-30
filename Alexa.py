@@ -45,6 +45,11 @@ def call_Anuja():
         info = wikipedia.summary(person, 4)
         print(info)
         talk(info)
+    elif 'pratiksha' in command:
+        person = command.replace('pratiksha is ', '')
+        info = wikipedia.summary(person, 4)
+        print(info)
+        talk(info)
     elif 'joke' in command:
         joke = talk(pyjokes.get_joke())
         print(joke)
