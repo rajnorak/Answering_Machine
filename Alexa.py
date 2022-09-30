@@ -85,6 +85,9 @@ def call_Anuja():
     elif 'what is your fav dish?' in command:
         cmd=talk('MY fav dish is Pav bhaji')
         print(cmd)
-  
+        
+  elif'what is your favourite qoutes?' in command:
+    cmd = talk ('My favourite quotes is Health is Wealth')
+    print(cmd)
 
 call_Anuja()
